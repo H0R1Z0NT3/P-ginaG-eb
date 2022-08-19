@@ -1,0 +1,47 @@
+header{
+    display: flex;
+    background-color: lightblue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    height: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.menu ul{
+   padding: 0px 150px 0px 150px; /*top right bottom left*/
+   margin: 15px;
+}
+
+a{
+    text-decoration: none;
+    color:coral;
+}
+
+.menu li{
+    list-style-type: none;
+    font-weight: 600;
+    display:inline-block;
+    padding-right: 150px;
+}
+
+nav a:hover{
+    color: darkblue;
+}
+
+.piePagina{
+    background-color: lightblue;
+}
