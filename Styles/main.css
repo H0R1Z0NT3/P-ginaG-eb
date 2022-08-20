@@ -22,7 +22,7 @@ body{
 }
 
 .menu ul{
-   padding: 0px 150px 0px 150px; /*top right bottom left*/
+   padding: 0px 130px 0px 130px; /*top right bottom left*/
    margin: 15px;
 }
 
@@ -42,6 +42,59 @@ nav a:hover{
     color: darkblue;
 }
 
+.containerInicio{
+    background-color: rgba(0,0,0,15);
+    text-align: center;
+}
+.containerInicio h2{
+    color: aliceblue;
+}
+
+audio{
+    padding-top: 15px;
+}
+
+.carteleraEstrenos{
+    background-color: rgba(0,0,0,15);
+    text-align: center;
+}
+.carteleraEstrenos h2{
+    color: aliceblue;
+}
+
+.carteleraTaquilleros{
+    background-color: rgba(0,0,0,15);
+    text-align: center;
+}
+.carteleraTaquilleros h2{
+    color: aliceblue;
+}
+
+.carteleraClasicos{
+    background-color: rgba(0,0,0,15);
+    text-align: center;
+}
+.carteleraClasicos h2{
+    color: aliceblue;
+}
+
+.carteleraSeries{
+    background-color: rgba(0,0,0,15);
+    text-align: center;
+}
+.carteleraSeries h2{
+    color: aliceblue;
+}
 .piePagina{
     background-color: lightblue;
+    margin: 1px;
+}
+
+div.nombres p{
+    padding: 0px 100px 0px 100px;
+}
+
+.nombres{
+    justify-content: center;
+    display: flex;
 }
