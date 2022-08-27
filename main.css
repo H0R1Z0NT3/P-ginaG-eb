@@ -1,0 +1,100 @@
+header{
+    display: flex;
+    background-color: #2f3e44;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    height: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.menu ul{
+   padding: 0px 130px 0px 130px; /*top right bottom left*/
+   margin: 15px;
+}
+
+a{
+    text-decoration: none;
+    color:#c7d8d9;
+}
+
+.menu li{
+    list-style-type: none;
+    font-weight: 600;
+    display:inline-block;
+    padding-right: 150px;
+}
+
+nav a:hover{
+    color: #89bac7;
+}
+
+.containerInicio{
+    background-color: #c7d8d9;
+    text-align: center;
+}
+.containerInicio h2{
+    color: #548484;
+}
+
+audio{
+    padding-top: 15px;
+}
+
+.carteleraEstrenos{
+    background-color: #ded7c9;
+    text-align: center;
+}
+.carteleraEstrenos h2{
+    color: #548484;
+}
+
+.carteleraTaquilleros{
+    background-color: #ded7c9;
+    text-align: center;
+}
+.carteleraTaquilleros h2{
+    color: #548484;
+}
+
+.carteleraClasicos{
+    background-color: #ded7c9;
+    text-align: center;
+}
+.carteleraClasicos h2{
+    color: #548484;
+}
+
+.carteleraSeries{
+    background-color: #ded7c9;
+    text-align: center;
+}
+.carteleraSeries h2{
+    color: #548484;
+}
+.piePagina{
+    background-color: #568281;
+    margin: 1px;
+}
+
+div.nombres p{
+    padding: 0px 100px 0px 100px;
+}
+
+.nombres{
+    justify-content: center;
+    display: flex;
+}
